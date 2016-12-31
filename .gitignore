@@ -1,0 +1,8 @@
+# Mac Stuff
+.DS_Store
+
+# Python Stuff
+*.pyc
+
+# Vagrant Stuff
+/.vagrant
