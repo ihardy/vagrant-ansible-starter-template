@@ -17,3 +17,7 @@ cat >> /etc/ansible/hosts <<EOL
 [blank]
 blank
 EOL
+
+# pre accept key
+ssh-keyscan 192.168.50.10 >> /home/vagrant/.ssh/known_hosts
+ssh-keyscan blank >> /home/vagrant/.ssh/known_hosts
